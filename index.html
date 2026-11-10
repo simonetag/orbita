@@ -28,7 +28,7 @@
 <script>
   // Pagina di lancio: serve solo a dare l'icona di Orbita sulla schermata Home dell'iPhone.
   // Non contiene dati: porta all'app web, che si apre solo con il tuo account Google.
-  var APP = "INCOLLA_QUI_IL_TUO_URL_EXEC";
+  var APP = "https://script.google.com/macros/s/AKfycbynhbHeDzG7wVsTc_IZdx40HUCCsFg_vDBkkIRE7qGtW0vp7Im6dTov8lXX4zlJQpC7Hg/exec";
   var ok = /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(APP);
   document.getElementById("go").href = ok ? APP : "#";
   if(!ok) document.getElementById("msg").textContent = "Manca l'indirizzo dell'app: va incollato in index.html.";
