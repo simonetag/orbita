@@ -1,0 +1,2 @@
+{"name":"Orbita","short_name":"Orbita","start_url":"./","display":"browser","orientation":"portrait","background_color":"#0F1524","theme_color":"#0F1524",
+ "icons":[{"src":"icona-192.png","sizes":"192x192","type":"image/png"},{"src":"icona-512.png","sizes":"512x512","type":"image/png"}]}
